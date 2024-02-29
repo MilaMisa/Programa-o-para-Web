@@ -1,0 +1,1 @@
+lista = list(map(float, input("Digite uma lista de números (Separados por espaço): ").split()))lista_ao_quadrado = list(map(lambda x: x**2, lista))print(f"Lista original: {lista}")print(f"Quadrado da lista: {lista_ao_quadrado}")

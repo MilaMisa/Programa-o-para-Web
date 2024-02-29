@@ -1,0 +1,1 @@
+lista = list(input("Digite uma lista de nomes (Separados por espaço): ").split())lista_caixa_alta= list(map(str.upper, lista))print(f"Lista original: {lista}")print(f"Lista em caixa alta: {lista_caixa_alta}")

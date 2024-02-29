@@ -1,0 +1,1 @@
+n = int(input("Digite o n-ésimo termo da sequência: "))fibonacci = [1, 1]for i in range(2, n):    soma = fibonacci[i - 1] + fibonacci[i - 2]    fibonacci.append(soma)print(f"Sequência de Fibonacci até o {n} ° termo : {fibonacci}")

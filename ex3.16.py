@@ -1,0 +1,1 @@
+lista = []for i in range (10):    lista.append(float(input("Digite um numero: ")))maior_numero = max(lista)menor_numero = min(lista)print(f"O maior número da lista é {maior_numero}")print(f"O menor número da lista é {menor_numero}:")        

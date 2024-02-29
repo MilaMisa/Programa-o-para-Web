@@ -1,0 +1,1 @@
+lista = list(range(31))divisiveis = list(filter(lambda x: x%3==0 or x%5==0, lista ))print(f"Os numeros de 0 a 30 divisíveis por 3 ou 5 são: {divisiveis}") 

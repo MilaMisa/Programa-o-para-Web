@@ -1,0 +1,6 @@
+frase= input("Digite uma frase: ")
+palavras = frase.split()
+contagem_o = sum(1 for palavra in palavras if palavra.endswith('o'))
+contagem_a = sum(1 for palavra in palavras if palavra.endswith('a'))
+print(f"Palavras que terminam em 'o': {contagem_o} palavras")
+print(f"Palavras que terminam em 'a': {contagem_a} palavras")

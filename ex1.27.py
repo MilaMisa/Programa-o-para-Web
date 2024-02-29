@@ -1,0 +1,5 @@
+nome = input("Digite o nome da pessoa: ")
+salario_bruto = float(input("Digite o salario da pessoa: "))
+imposto = float(input("Digite a porcenteagem de imposto sobre o salario da pessoa : "))
+salario_liquido = salario_bruto * (1-imposto/100)
+print(f"O salário líquido de {nome} é R$ {salario_liquido}")

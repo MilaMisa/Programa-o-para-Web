@@ -1,0 +1,1 @@
+frase = input("Digite um frase: ")palavras = frase.split()palavras_a = filter(lambda p:p.find("a")>=0 , palavras)palavras_o = [p.replace("a", "o") for p in palavras_a]print(f"Palvaras com a letra a trocada pelo o: {palavras_o}")

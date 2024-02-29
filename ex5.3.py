@@ -1,0 +1,1 @@
+lista = list(range(11))pares_ao_quadrado = [i**2 for i in lista if i %2 ==0 ]print(f"Números pares de 0 a 10 elevados ao quadrado: {pares_ao_quadrado}")
